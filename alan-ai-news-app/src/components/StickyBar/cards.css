@@ -1,0 +1,98 @@
+.property-description h5 {
+  margin: 0px;
+  margin-right: 60px;
+  font-size: 15px;
+  box-shadow: 0px;
+  color: black;
+  line-height: 1.2;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+  box-shadow: none;
+}
+
+@media (max-width: 500px) {
+  .head {
+    flex-direction: column;
+  }
+}
+
+.center {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+}
+
+/* End Non-Essential  */
+
+.property-card {
+  height: 8em;
+  width: 6em;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 2px 3px 3px #e1e1e3, -2px -2px 3px #ffffff;
+}
+/* ^-- The margin bottom is necessary for the drop shadow otherwise it gets clipped in certain cases. */
+
+/* Top Half of card, image. */
+
+.property-image1 {
+  height: 6em;
+  width: 10em;
+  padding: 1em 2em;
+  position: Absolute;
+  top: 0px;
+  transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image: url("https://i.ibb.co/rtJ5xtW/rahul.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.property-image2 {
+  height: 6em;
+  width: 10em;
+  padding: 1em 2em;
+  position: Absolute;
+  top: 0px;
+  transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image: url("https://i.ibb.co/GJknv7r/prasad-a.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Bottom Card Section */
+
+.property-description {
+  background-color: #fafafc;
+  height: 3em;
+  width: 10em;
+  position: absolute;
+  bottom: 0em;
+  transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  padding: 0.5em 1em;
+  text-align: center;
+}
+
+/* Social Icons */
+
+/* Property Cards Hover States */
+
+.property-card:hover .property-description {
+  height: 0em;
+  padding: 0px 1em;
+}
+
+.property-card:hover .property-image1 {
+  height: 10em;
+}
+
+.property-card:hover .property-image2 {
+  height: 10em;
+}

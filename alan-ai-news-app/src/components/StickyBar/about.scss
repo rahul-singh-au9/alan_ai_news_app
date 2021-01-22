@@ -1,0 +1,101 @@
+.about-description {
+  min-height: 100vh;
+  background-image: url("https://images.pexels.com/photos/756799/pexels-photo-756799.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+
+  background-repeat: no-repeat;
+  background-size: 120vw 120vh;
+  background: cover;
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  justify-content: space-between;
+  position: relative;
+  animation: mymove1 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+}
+
+@keyframes mymove1 {
+  from {
+    top: 110vh;
+  }
+  to {
+    top: 0px;
+  }
+}
+
+.about-devs {
+  width: 120%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+  padding-top: 20px;
+}
+
+// .image-container {
+//   height: 90px;
+//   width: 90px;
+//   border-radius: 50%;
+//   overflow: hidden;
+//   border: 5px solid rgba(255, 255, 255, 0.623);
+//   box-shadow: inset 0px 0px 0px 10px red;
+//   box-sizing: border-box;
+//   background: linear-gradient(to right, rgb(0, 38, 255), rgb(204, 0, 255));
+// }
+
+// .image-container img {
+//   height: 100%;
+//   width: 100%;
+// }
+
+.about-description p {
+  font-size: 20px;
+  text-align: center;
+  text-shadow: 1px 1px 1px #000;
+}
+
+// body {
+//   overflow: hidden;
+// }
+
+/*firstpart*/
+
+.login-photo-container {
+  background-image: url("https://bit.ly/3bwHw6v");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 120vh;
+  width: 50vw;
+}
+
+.info {
+  height: 370px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.info-para {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.about-description h1 {
+  text-shadow: 1px 1px 1px #000;
+}
+
+@media (max-width: 500px) {
+  .about-description {
+    padding-top: 20px;
+  }
+}

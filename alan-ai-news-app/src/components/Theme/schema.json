@@ -1,0 +1,72 @@
+{
+    "data" : {
+        "dark" : {
+            "id": "T_001",
+            "name": "Dark",
+            "colors": {
+                "body": "#000000",
+                "text": "#FFFFFF",
+                "button": {
+                    "text": "#000000",
+                    "background": "#FFFFFF"
+                },
+                "link": {
+                    "text": "teal",
+                    "opacity": 1
+                }
+            },
+            "font": "Roboto"
+        },
+        "light" : {
+            "id": "T_002",
+            "name": "Light",
+            "colors": {
+                "body": "#FFFFFF",
+                "text": "#000000",
+                "button": {
+                    "text": "#FFFFFF",
+                    "background": "#000000"
+                },
+                "link": {
+                    "text": "teal",
+                    "opacity": 1
+                }
+            },
+            "font": "Tinos"
+        },
+        "calm" : {
+            "id": "T_005",
+            "name": "Calm",
+            "colors": {
+                "body": "#80cbc4",
+                "text": "#002b24",
+                "button": {
+                    "text": "#FFFFFF",
+                    "background": "#002b24"
+                },
+                "link": {
+                    "text": "#002b24",
+                    "opacity": 0.8
+                }
+            },
+            "font": "Nunito Sans"
+        },
+        "seaWave" : {
+            "id": "T_007",
+            "name": "Sea Wave",
+            "colors": {
+                "body": "#9be7ff",
+                "text": "#0d47a1",
+                "button": {
+                    "text": "#ffffff",
+                    "background": "#0d47a1"
+                },
+                "link": {
+                    "text": "#0d47a1",
+                    "opacity": 0.8
+                }
+            },
+            "font": "Ubuntu"
+        }
+    }
+}
